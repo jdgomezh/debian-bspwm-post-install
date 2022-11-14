@@ -40,7 +40,7 @@ sudo apt update
 sudo apt dist-upgrade --reinstall --fix-broken --no-install-suggests --no-install-recommends --purge
 
 sudo apt install --reinstall --fix-broken --no-install-suggests --no-install-recommends --purge -y \
-	linux-headers-$(uname -r|sed 's,[^-]*-[^-]*-,,') \
+    linux-headers-$(uname -r|sed 's,[^-]*-[^-]*-,,') \
     wget \
     curl \
     p7zip-full \
@@ -76,7 +76,7 @@ sudo apt install --reinstall --fix-broken --no-install-suggests --no-install-rec
     xserver-xorg-video-nvidia \
     redshift \
     policykit-1 \
-	lxqt-policykit \
+    lxqt-policykit \
     numlockx \
     qlipper \
     dunst \
